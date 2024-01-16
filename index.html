@@ -10,6 +10,16 @@
         section{
             padding: 100px 0;
         }
+
+        .tt img{
+                width: 100%;
+            }
+
+        @media screen  and (max-width:1000px){
+            .tt img{
+                width: 60%;
+            }
+    	}
     </style>
 </head>
 <body>
@@ -64,7 +74,7 @@
             <div class="col-md-4  text-center text-md-start">
                <h1>
                 <div class="display-4" style="font-family: cursive; 
-                color:rgb(247, 243, 2); text-shadow: rgb(146, 89, 3) 4px 4px;">Honey-Nut Cheerios</div>
+                color: chocolate ;">Honey-Nut Cheerios</div>
                 <div class="display-6 text-primary fw-bold">Naturally Flavored</div>
                </h1>
                 <p class="lead my-4 text-warning fw-bold">made with Real Honey</p>
@@ -78,7 +88,7 @@
             </div>   
             <div class="col-md-3 text-center">
                 <span class="tt" data-bs-placement="bottom" title="Honey-Nut Cheerios">
-                <img src="/image/Cheerios.jpeg" alt="cheerios">
+                <img src="/image/Cheerios.jpeg" alt="cheerios" >
                 </span> 
             </div>
         </div>
@@ -404,11 +414,11 @@
             <p>There are different varieties of cereals produced by the General Mills Factory</p>
             <!-- dropdown -->
             <div class="dropdown my-4">
-                <button class="btn btn-primary dropdown-toggle" type="button"
-                    id="cereal-dropdown" data-bs-toggle="dropdown">
-                    Choose your choice of cereal
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="cereal-dropdown">
+                <!-- <button class="btn btn-primary dropdown-toggle" type="button"
+                    id="cereal-dropdown" data-bs-toggle="dropdown" >
+                </button> -->
+                <h6 class="text-primary fw-bold">Choose your choice of cereal</h6>
+                <ul class="dropdown-menu show" aria-labelledby="cereal-dropdown">
                     <li><a href="cinnamon.html" class="dropdown-item">Cinnamon Toast Crunch</a></li> 
                     <li><a href="chocolate.html" class="dropdown-item">Cocoa-Puffs</a></li> 
                 </ul>

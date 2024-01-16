@@ -14,6 +14,18 @@
         body{
             width: fit-content;
         }
+
+        .tt img{
+            width: 150%;
+        }
+
+        @media screen and (max-width:1000px){
+            .tt img{
+                width: 80%;
+            }
+        }
+
+        
     </style>
 </head>
 
@@ -73,8 +85,8 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4 text-center text-md-start">
                <h1>
-                <div class="display-3" style="font-family: cursive; text-shadow: brown 2px 4px 4px;">Cocoa</div>
-                <div class="display-3" style="font-family: cursive; text-shadow: brown 2px 4px 4px;">Puffs</div>
+                   <div class="display-3" style="font-family: cursive; color: brown;">Cocoa</div>
+                   <div class="display-3" style="font-family: cursive; color: brown;">Puffs</div>
                 <div class="display-6 text-warning fw-bold">Brownie Crunch</div>
                </h1>
                 <p class="lead my-4 text-danger fw-bold">Sweetened Chocolate</p>
@@ -415,23 +427,17 @@
             <p>There are different varieties of cereals produced by the General Mills Factory</p>
             <!-- dropdown -->
             <div class="dropdown my-4">
-                <button class="btn btn-primary dropdown-toggle" type="button"
-                    id="cereal-dropdown" data-bs-toggle="dropdown">
-                    Choose your choice of cereal
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="cereal-dropdown">
-                    <li><a href="another.html" class="dropdown-item">Cinnamon Toast Crunch</a></li> 
-                    <li><a href="another2.html" class="dropdown-item">Cocoa-Puffs</a></li> 
+                <!-- <button class="btn btn-primary dropdown-toggle" type="button"
+                    id="cereal-dropdown" data-bs-toggle="dropdown" >
+                </button> -->
+                <h6 class="text-primary fw-bold">Choose your choice of cereal</h6>
+                <ul class="dropdown-menu show" aria-labelledby="cereal-dropdown">
+                    <li><a href="cinnamon.html" class="dropdown-item">Cinnamon Toast Crunch</a></li> 
+                    <li><a href="index.html" class="dropdown-item">Honey-Nut Cheerios</a></li> 
                 </ul>
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 
     <script src="js/bootstrap.js"></script>
