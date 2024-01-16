@@ -1,5 +1,5 @@
-alert ("You're entering Efe's website, tread carefully!");
-alert ("Note: This is just a mock-up page");
+// alert ("You're entering Efe's website, tread carefully!");
+// alert ("Note: This is just a mock-up page");
 
 
 const tooltips = document.querySelectorAll(".tt");
