@@ -1,5 +1,5 @@
-// alert ("You're entering Efe's website, tread carefully!");
-// alert ("Note: This is just a mock-up page");
+alert ("NOTE: This is just a customized mockup website for a product created by Efe, and so no interactions when the 'Buy' button is clicked");
+
 
 
 const tooltips = document.querySelectorAll(".tt");
