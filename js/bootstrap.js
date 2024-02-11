@@ -1,4 +1,4 @@
-alert ("NOTE: This is just a customized mockup website for a sales-product, created by Efe, and so no interactions when the 'Buy' button is clicked");
+// alert ("NOTE: This is just a customized mockup website for a sales-product, created by Efe, and so no interactions when the 'Buy' button is clicked");
 
 
 
